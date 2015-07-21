@@ -1,5 +1,9 @@
 /* General */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: sans-serif;
 	margin: 0px;
@@ -10,33 +14,44 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0px;
 }
 
+
 /* Navigation */
 
-.nav {
+header {
 	background-color: #2980b9;
 	height: 100px;
 }
-.nav h1 {
-	float: left;
+
+footer {
+	background-color: #333333;
+	height: 60px;
+	text-align: center;
 }
-.nav ul {
+
+header h1 {
+	float: left;
+	padding: 20px;
+}
+header ul {
 	float: right;
+}
+
+ul.nav {
 	display: inline-block;
 	list-style: none;
 	padding: 0px;
 }
-.nav ul li {
+ul.nav li {
 	display: inline;
 	margin-right: 20px;
 }
-.nav a {
+ul.nav a {
 	color: #FFFF00;
 	text-decoration: none;
 }
-.nav a:hover, .nav a:focus {
+ul.nav a:hover, ul.nav a:focus {
 	color: #FFFFFF;
 }
-
 
 /* Page contemnt */
 
@@ -47,6 +62,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
 	text-align: center;
+	background-color: #99CC00;
+	padding: 20px 0px 20px 0px;
 }
 
 
@@ -56,13 +73,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .white_row {
-	background-color: white;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
 }
 
-.grey_row {
-	background-color: gray;
+.gray_row {
+	background-color: #CCCCCC;
+	margin-bottom: 20px;
 }
 
+.column_50 {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+
+/* Common */
+
+.clear {
+	clear: both;
+}
+
+.right_align {
+	text-align: right;
+}
 
 
 

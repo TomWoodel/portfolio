@@ -1,0 +1,70 @@
+/* General */
+
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	background-color: #FFFFCC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+/* Navigation */
+
+.nav {
+	background-color: #2980b9;
+	height: 100px;
+}
+.nav h1 {
+	float: left;
+}
+.nav ul {
+	float: right;
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+}
+.nav ul li {
+	display: inline;
+	margin-right: 20px;
+}
+.nav a {
+	color: #FFFF00;
+	text-decoration: none;
+}
+.nav a:hover, .nav a:focus {
+	color: #FFFFFF;
+}
+
+
+/* Page contemnt */
+
+.page_margins {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.hero {
+	text-align: center;
+}
+
+
+.red_row {
+	background-color: red;
+	padding: 20px 20px 40px 20px;
+}
+
+.white_row {
+	background-color: white;
+}
+
+.grey_row {
+	background-color: gray;
+}
+
+
+
+
+
+

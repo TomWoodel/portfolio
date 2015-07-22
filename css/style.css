@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation */
 
 header {
-	background-color: #2980b9;
+	background-color: rgba(0, 0, 0, 0.8);
 	height: 100px;
 }
 
@@ -72,11 +72,15 @@ ul.nav a:hover, ul.nav a:focus {
 }
 
 .hero {
-	text-align: center;
-	background-color: #FFFFFF;
-	padding: 20px 0px 20px 0px;
+	background-image: url(../images/hero.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center;
+    width: 0px auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
-
 
 .red_row {
 	background-color: #a82400;

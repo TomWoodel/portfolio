@@ -7,7 +7,7 @@
 body {
 	font-family: sans-serif;
 	margin: 0px;
-	background-color: #FFFFCC;
+	background-color: #FFFFFF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,56 +30,84 @@ footer {
 
 header h1 {
 	float: left;
-	padding: 20px;
+	padding: 30px;
+	color: white;
 }
 header ul {
 	float: right;
+	line-height: 60px;
 }
 
 ul.nav {
+	text-align: right;
 	display: inline-block;
 	list-style: none;
-	padding: 0px;
+	padding: 0px 30px 0 0;
 }
 ul.nav li {
 	display: inline;
-	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+
 }
 ul.nav a {
-	color: #FFFF00;
+	color: #FFFF90;
 	text-decoration: none;
 }
 ul.nav a:hover, ul.nav a:focus {
 	color: #FFFFFF;
 }
 
-/* Page contemnt */
+/* Page content */
 
+
+.tag-line {
+	color: white;
+	font-size: 24px;
+}
 .page_margins {
-	margin-left: 100px;
-	margin-right: 100px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .hero {
 	text-align: center;
-	background-color: #99CC00;
+	background-color: #FFFFFF;
 	padding: 20px 0px 20px 0px;
 }
 
 
 .red_row {
-	background-color: red;
-	padding: 20px 20px 40px 20px;
+	background-color: #a82400;
+	padding: 5px 20px 5px 20px;
 }
+
+.red_row h4 {
+	color: white;
+	font-size: 26px;
+	font-family: sans-serif;
+}
+
 
 .white_row {
 	background-color: #FFFFFF;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 38px;
 }
 
+.white_row p {
+font-size: 20px;
+text-align: left;
+padding-left: 20px;
+}
 .gray_row {
 	background-color: #CCCCCC;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
 }
 
 .column_50 {
@@ -89,6 +117,19 @@ ul.nav a:hover, ul.nav a:focus {
 	padding: 10px;
 }
 
+
+.column_50 h3 {
+	color: white;
+	font-size: 30px;
+
+
+}
+
+.column_50 h4 {
+	color: white;
+	font-size: 20px;
+
+}
 
 /* Common */
 

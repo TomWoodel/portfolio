@@ -4,12 +4,36 @@
 		"selected_items":
 		[
 			[
-				"bckgro",
-				"background-color"
+				"r",
+				"repeat-x"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"white",
+				"white_row"
+			],
+			[
+				"col",
+				"column_50"
+			],
+			[
+				"font",
+				"font-size"
 			],
 			[
 				"margin",
-				"margin-right"
+				"margin-left"
+			],
+			[
+				"bckgro",
+				"background-color"
 			],
 			[
 				"background",
@@ -32,10 +56,13 @@
 	"buffers":
 	[
 		{
+			"contents": "<!doctype html>\n<html>\n	<head>\n		<title>Tom Woodel UX Designer</title>\n		<link href=\"css/style.css\" rel=\"stylesheet\">\n	</head>\n	<body>\n		<header>\n			<div class=\"page_margins\">\n				<h1>Tom Woodel</h1>\n				<ul class=\"nav\">\n					<li><a href=\"about.html\">About Me</a></li>\n					<li><a href=\"projects.html\">Projects</a></li>\n					<li><a href=\"contact.html\">Contact Me</a></li>\n				<ul>\n			</div>\n	    </header>\n\n		<div class=\"hero\">\n			<h2>Case Study</h2>\n			<img src=\"images/comp.png\" alt=\"comp\">\n		</div>\n\n		<div class=\"red_row page_margins\">\n			<div class=\"column_50\">\n				<h3>Case Study: Quorama</h3>\n					<div class=\"tag-line\" \n						<p>What would you ask?</p>\n					</div>\n			</div>\n			<div class=\"column_50 right_align\">\n				<h4>Team Members: Mollie Lloyd and Emily B Yang</h4>\n				<h4>Client: Quora</h4>\n			</div>\n			<div class=\"clear\"></div>\n		</div>\n\n		<!-- Brief and Solution -->\n		<div class=\"white_row page_margins\">\n			<div class=\"column_50\">\n				<h5>Brief</h5>\n				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n			</div>\n			<div class=\"column_50\">\n				<h5>Solution</h5>\n				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n			</div>\n			<div class=\"clear\"></div>\n		</div>\n\n		<div class=\"gray_row page_margins\">\n			<div class=\"column_50\">\n				<h5>Competetive Analysis</h5>\n				<img src=\"images/comp a1.png\" width=\"100%\" alt=\"Competetive Analysis1\">\n			</div>\n			<div class=\"column_50\">\n				<h5>Competetive Analysis</h5>\n				<img src=\"images/comp a2.png\" width=\"100%\" alt=\"Comepetive Analysis2\">\n			</div>\n			<div class=\"clear\"></div>\n		</div>\n\n		<div class=\"white_row page_margins\">\n			<div class=\"column_50\">\n				<h5>Competetive Analysis</h5>\n				<img src=\"images/comp a3.png\" width=\"100%\" alt=\"Comepetive Analysis3\">\n			</div>\n			<div class=\"column_50\">\n				<h5>Competetive Analysis</h5>		\n				<img src=\"images/comp a4.png\" width=\"100%\" alt=\"Comepetive Analysis4\">\n			</div>\n			<div class=\"clear\"></div>\n		</div>\n\n		<div class=\"gray_row page_margins\">\n			<h5>Personas</h5>\n			<div class=\"column_50\">\n				<img src=\"images/persona maria.jpg\" width=\"100%\" alt=\"Maria\">\n			</div>\n			<div class=\"column_50\">\n				<img src=\"images/persona james.jpg\" width=\"100%\" alt=\"James\">\n			</div>\n			<div class=\"clear\"></div>\n		</div>\n\n		<div class=\"white_row page_margins\">\n			<h5>Design Studio</h5>\n			<img src=\"images/design studio.png\" width=\"100%\" alt=\"Design Studio\">\n		</div>\n\n		<div class=\"gray_row page_margins\">\n			<h5>Sketches</h5>\n			<img src=\"images/paper prototype.jpg\" width=\"100%\" alt=\"Paper Prototype\">\n		</div>\n\n		<div class=\"white_row page_margins\">\n			<h5>User Testing</h5>\n			<div class=\"column_50\">\n				<img src=\"images/user testing.png\" width=\"100%\" alt=\"User Testing\">\n			</div>\n			<div class=\"column_50\">\n				<img src=\"images/user testing.png\" width=\"100%\" alt=\"User Testing\">\n			</div>\n			<div class=\"clear\"></div>\n		</div>\n\n		<div class=\"gray_row page_margins\">\n			<h5>Concept</h5>\n			<a href=\"http://google.co.uk\">See Prototype</a>\n		</div>\n\n		<footer>\n			<ul class=\"nav\">\n				<li><a href=\"http://google.com\">Contact</a></li>\n				<li><a href=\"http://google.com\">More Case Studies</a></li>\n			</ul>\n		</footer>\n\n	</body>	\n</html>\n",
 			"file": "index.html",
+			"file_size": 4001,
+			"file_write_time": 1437569587000000,
 			"settings":
 			{
-				"buffer_size": 3936,
+				"buffer_size": 4001,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +70,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 1160,
+				"buffer_size": 1833,
 				"line_ending": "Unix"
 			}
 		}
@@ -72,6 +99,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Tom/Documents/Git/portfolio/projects.html",
 		"/Users/Tom/Documents/PortfolioGA/css/style.css",
 		"/Users/Tom/Documents/PortfolioGA/index.html",
 		"/Users/Tom/Documents/Profile/css/style.css",
@@ -79,7 +107,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -120,15 +148,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3936,
+						"buffer_size": 4001,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								187,
-								187
+								887,
+								887
 							]
 						],
 						"settings":
@@ -153,15 +181,15 @@
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 1160,
+						"buffer_size": 1833,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								760,
-								760
+								232,
+								232
 							]
 						],
 						"settings":
@@ -170,7 +198,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 555.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
